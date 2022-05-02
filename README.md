@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jarvis Data Engineering Training
 1. [Linux cluster monitoring agent (Linux and SQL)](./linux_sql) In-progress
 2. [Core Java Apps](./core_java) In-progress
@@ -6,3 +7,6 @@
 5. [Spark/Scala](./spark) In-progress
 6. [Cloud/DevOps](./cloud_devops) In-progress
 
+=======
+# jarvis_data_eng_AnurudranChandrasekaram
+>>>>>>> a7077bbc7a39d48b2db4774fd13805a3c8fdac75
