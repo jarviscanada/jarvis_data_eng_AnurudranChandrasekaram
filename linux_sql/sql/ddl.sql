@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_info
      total_mem        INTEGER NOT NULL,
      "timestamp"      TIMESTAMP NOT NULL,
      PRIMARY KEY (id),
-		 UNIQUE(hostname)
+	 UNIQUE(hostname)
   );
 
 CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
@@ -24,6 +24,5 @@ CREATE TABLE IF NOT EXISTS PUBLIC.host_usage
      cpu_kernel     INTEGER NOT NULL,
      disk_io        INTEGER NOT NULL,
      disk_available INTEGER NOT NULL,
-     PRIMARY KEY (host_id),
      FOREIGN KEY (host_id) REFERENCES host_info(id)
   );
