@@ -7,6 +7,7 @@ psql_password=$5
 
 #Check # of args
 if [ $# -ne  5]
+then
   echo 'Command requires host, port, database name, username, and password'
   exit 1
 fi
@@ -29,8 +30,8 @@ timestamp=$(vmstat -t | awk '{print $18, $19}' | tail -n1 | xargs)
 
 
 #PSQL command: Inserts server usage data into host_info table
-insert_stmt="INSERT INTO host_usage(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache, total_mem, timestamp)
-             VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$L2_cache', '$total_mem','$timestamp')"
+insert_stmt="INSERT INTO host_info(hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, L2_cache, total_mem, timestamp)
+             VALUES('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$total_mem','$timestamp')"
 
 #set up env var for pql cmd
 export PGPASSWORD=$psql_password
