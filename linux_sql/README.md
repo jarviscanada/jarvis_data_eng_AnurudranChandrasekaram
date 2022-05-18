@@ -46,7 +46,7 @@ This project is used to retrieve hardware information of different servers to de
 The project is implemented through a docker container. It gets the host's info of memeory and CPU and gets the host usage of this memory and CPU usage through bash scripts. Which those values get added to their respective tables in the database. This project is only a MVP and is ran on one host only right now.
 
 ## Architecture
-![Architecture of the linux/sql project](/assets/architecture.png)
+![Architecture of the linux/sql project](./assets/architecture.png)
 
 ## Scripts
 Shell script description and usage
