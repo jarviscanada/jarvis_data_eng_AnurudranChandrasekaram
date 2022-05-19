@@ -6,7 +6,7 @@ psql_user=$4
 psql_password=$5
 
 #Check # of args
-if [ $# -ne  5]
+if [ $# -ne  5 ]
 then
   echo 'Command requires host, port, database name, username, and password'
   exit 1
