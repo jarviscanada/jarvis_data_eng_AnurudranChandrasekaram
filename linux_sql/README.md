@@ -1,7 +1,7 @@
 # Linux Cluster Monitoring Agent
 
 ## Introduction
-This project is used to retrieve hardware information of different servers to determine how much usage each server uses such as how much memory it uses or CPU. The tools used to create this project are bash scripts, postgress sql database, sql, and docker.
+This project is used to retrieve hardware information on different servers to determine how much CPU or memory each server uses . The tools used to create this project are bash scripts, postgreSQL database, sql, and docker.
 
 ## Quick Start
 1. Start a psql instance using psql_docker.sh
@@ -43,7 +43,7 @@ This project is used to retrieve hardware information of different servers to de
     ```
 
 ## Implemenation
-The project is implemented through a docker container. It gets the host's info of memeory and CPU and gets the host usage of this memory and CPU usage through bash scripts. Which those values get added to their respective tables in the database. This project is only a MVP and is ran on one host only right now.
+The project is implemented through a docker container. It gets the host's info of memory and CPU and gets the host usage through the use of bash scripts. Then those values get added to their respective tables in the database. This project is only a MVP and is ran on one host only right now.
 
 ## Architecture
 ![Architecture of the linux/sql project](./assets/architecture.png)
@@ -51,7 +51,7 @@ The project is implemented through a docker container. It gets the host's info o
 ## Scripts
 Shell script description and usage
 - psql_docker.sh
-    This script is used to start the dicker container so your are able to work in that environment
+    This script is used to start the docker container so your are able to work in that environment
     ```
     Usage:
     ./scripts/psql_docker.sh start|stop|create [db_username][db_password]
@@ -60,7 +60,7 @@ Shell script description and usage
 
     ```
 - host_info.sh  
-    Script collects the hardware information of the host computer and inserts those data to the postgress database
+    Script collects the hardware information of the host computer and inserts those data to the postgres database
     ```
     Usage: 
     ./scripts/host_info.sh psql_host psql_port db_name psql_user psql_password
@@ -74,7 +74,7 @@ Shell script description and usage
 - crontab  
 This Script sets the host_usage to run every minute
 - queries.sql   
-This query has three queries, first on is to group harware info based on CPU number. Second script average memory used for each host every 5 minutes. Last query is to detect host failure which is whenever host doesn't insert minimum three data points every 5 minutes.
+This query has three queries so far. First on is to group harware info based on CPU number. Second script average memory used for each host every 5 minutes. Last query is to detect host failure which is whenever host doesn't insert minimum three data points every 5 minutes.
 
 ## Database Modeling
 `Host_info`
@@ -105,12 +105,12 @@ This query has three queries, first on is to group harware info based on CPU num
 
 # Test
 
-The bash scripts and SQL queries are tested in a docker container. These scripts are tested by first creating the database and tables and then running the scripts to add the values. Then can run the queries in sql/queries.sql file to see if queries are ran properly and also crontab executes properly.
+The bash scripts and SQL queries are tested in a docker container. These scripts are tested by first creating the database and tables and then running the scripts to add the values. Then you can run the queries in sql/queries.sql file to see if queries are executed properly and also check if crontab executes properly as well.
 
 # Deployment
-The code base is stored on GitHub and the postgress SQL is used by the docker container.
+The code base is stored on GitHub and postgreSQL database ran in the docker container.
 
 # Improvements
-- Handle hardware update: being able to automatically update the data of the host machines whenever there is a hardware update is a plus.
-- Add more sql queries to be able to get more type of informations on the host servers
-- Being able to have efficent storage since crontab is running host_usage every minute, the storage in the database will be overwhelemed and should have a way to delete the data after analyzing it every day or so
+- Handle hardware update: being able to automatically update the data of the host machines whenever there is a hardware update is a plus
+- Add more sql queries to be able to get more type of informations on the host servers and the usage
+- Being able to have efficent storage since crontab is running host_usage every minute, the storage in the database will be overwhelemed and there should be a way to delete the data after analyzing it every day or so
