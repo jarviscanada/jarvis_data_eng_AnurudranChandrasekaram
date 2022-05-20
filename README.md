@@ -1,37 +1,37 @@
 # Anurudran Chandrasekaram . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Java, Design Patterns, Javascript, Network Security, HTML/CSS
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** C, Haskell, SVN, Dynamic Programming, Assembly language
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/linux_sql)]: Created a product that is able to get the host hardware information as well as all the host's usage information every minute that are currently on the server. This project was built using docker, bash scripts, and sql. Used postgresql as the rdbms to store the host's harware and usage information so we can write sql queries that can answer various buisness questions.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/core_java)]:
       
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
   - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/python_data_anlytics)]: Not Started
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
+**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/hadoop)]: Not Started
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/spark)]: Not Started
 
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
@@ -42,23 +42,19 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](http
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2022-present)**: Learning various programming languages and tools to by completing various projects such as the Cluster Monitor project or Java grep. Working in a agile/scrum approach to complete those projects
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Jr Software Engineer Co-op, Ontario Public Service (September 2020 - April 2021)**: Developed Test scripts using Java and Selenium to automate the webpages onto different web browsers to test the functionality of the website and used Git for deployment of our code. Researched and Developed a new way in doing load testing to ensure the websites can handle traffic overload and not crash.
+
+**Web Developer Co-op, Public Services and Procurement Canada (September 2019 - December 2019)**: Worked in a waterfall style project management using Jira with a group of 6 co-workers to deliver the annual financial activities made by the country viewed by millions. Communicated effectively with clients by producing clarity and depth responses to significantly reduce turnaround back and forth communication
+
+**Senior QA Specialist Co-op, CIBC Digital (January 2019 - April 2019)**: Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website that are viewed by millions. Coordinated with team members through email and on Jira to efficiently and effectively test, send changes, publish to production and retest in production in a span of 1 hour. Effectively tested new pages and variety of change requests varying from 5-50 changes to reduce reopening issues on a daily basis
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**University of Toronto Scarborough (2016-2021)**, Honours Bachelor of Sciences, Computer Science specializing in Software Engineering
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
+- Basketball and Ultimate Frisbee player
 - Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam

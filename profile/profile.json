@@ -1,25 +1,14 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
-    },
-    {
       "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Honours Bachelor of Sciences",
+      "department": "Computer Science specializing in Software Engineering",
+      "duration": "2016-2021",
+      "school_name": "University of Toronto Scarborough"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram",
   "highlighted_projects": [
     {
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
@@ -34,7 +23,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Created a product that is able to get the host hardware information as well as all the host's usage information every minute that are currently on the server. This project was built using docker, bash scripts, and sql. Used postgresql as the rdbms to store the host's harware and usage information so we can write sql queries that can answer various buisness questions.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
@@ -77,21 +66,8 @@
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Basketball and Ultimate Frisbee player",
+        "Competitive gaming"
       ],
       "title": "Activities/Hobbies"
     }
@@ -99,39 +75,51 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "description": "Learning various programming languages and tools to by completing various projects such as the Cluster Monitor project or Java grep. Working in a agile/scrum approach to complete those projects",
+      "duration": "2022-present",
       "title": "Software Developer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Ontario Public Service",
+      "description": "Developed Test scripts using Java and Selenium to automate the webpages onto different web browsers to test the functionality of the website and used Git for deployment of our code. Researched and Developed a new way in doing load testing to ensure the websites can handle traffic overload and not crash.",
+      "duration": "September 2020 - April 2021",
+      "title": "Jr Software Engineer Co-op"
+    },
+    {
+      "company": "Public Services and Procurement Canada",
+      "description": "Worked in a waterfall style project management using Jira with a group of 6 co-workers to deliver the annual financial activities made by the country viewed by millions. Communicated effectively with clients by producing clarity and depth responses to significantly reduce turnaround back and forth communication",
+      "duration": "September 2019 - December 2019",
+      "title": "Web Developer Co-op"
+    },
+    {
+      "company": "CIBC Digital",
+      "description": "Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website that are viewed by millions. Coordinated with team members through email and on Jira to efficiently and effectively test, send changes, publish to production and retest in production in a span of 1 hour. Effectively tested new pages and variety of change requests varying from 5-50 changes to reduce reopening issues on a daily basis",
+      "duration": "January 2019 - April 2019",
+      "title": "Senior QA Specialist Co-op"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Java",
+      "Design Patterns",
+      "Javascript",
+      "Network Security",
+      "HTML/CSS"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "C",
+      "Haskell",
+      "SVN",
+      "Dynamic Programming",
+      "Assembly language"
     ],
     "proficient": [
-      "Java",
+      "Python",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field."
 }
