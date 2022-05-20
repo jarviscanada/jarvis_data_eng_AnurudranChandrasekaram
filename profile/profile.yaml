@@ -102,8 +102,12 @@ professional_experience:
 education: 
   - school_name: "University of Toronto Scarborough"
     duration: "2016-2021"
-    degree: "Honours Bachelor of Science"
+    degree: "Honours Bachelor of Sciences"
     department: "Computer Science specializing in Software Engineering"
+    # optional
+    awards_achievements: 
+      
+  
 
 #Optional section
 others:
