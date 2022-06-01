@@ -17,5 +17,5 @@ public class RegexExcImp implements RegexExc{
     public boolean isEmptyLine(String line) {
         return Pattern.matches("/^\\s*$/g", line);
     }
-    
+
 }
