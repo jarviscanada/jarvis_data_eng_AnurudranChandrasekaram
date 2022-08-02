@@ -11,14 +11,12 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Created an AirBnb Database using RDBMS by creating tables for a user to create an account as a host or renter and be able to host or rent a listing for certain days.",
+      "name": "AirBnb Database"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
+      "description": "Worked on a Matplotlib issue by creating a feature that is able to toggle the visbility of sub plots on a graph through the legend handler. This project was worked with a group of 5 people using a waterfall project methodology. The tools used where gitbuh, python and pytest to test the feature.",
+      "name": "Matplotlib"
     }
   ],
   "jarvis_projects": [
@@ -29,37 +27,12 @@
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
+        "Twitter App (In Progress): Creating an app that is able to create, update and delete a tweet using the twitter API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app.",
         "JDBC App: This app is a connection between Java and RDBMS. It uses the CRUD and DAO design patterns.",
         "Grep App: Created an app that mimics the linux grep command. It takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression given."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Anurudran Chandrasekaram",
@@ -67,7 +40,8 @@
     {
       "bullets": [
         "Basketball and Ultimate Frisbee player",
-        "Competitive gaming"
+        "Competitive gaming",
+        "Working out"
       ],
       "title": "Activities/Hobbies"
     }
@@ -100,7 +74,7 @@
   ],
   "skills": {
     "competent": [
-      "Java",
+      "Agile/Scrum",
       "Design Patterns",
       "Javascript",
       "Network Security",
@@ -110,16 +84,16 @@
       "C",
       "Haskell",
       "SVN",
-      "Dynamic Programming",
+      "Waterfall",
       "Assembly language"
     ],
     "proficient": [
       "Python",
-      "Linux/Bash",
       "RDBMS/SQL",
-      "Agile/Scrum",
+      "Java",
+      "Linux/Bash",
       "Git"
     ]
   },
-  "summary": "My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field."
+  "summary": "My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments usch as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline."
 }

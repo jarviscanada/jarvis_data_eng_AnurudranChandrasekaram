@@ -1,14 +1,14 @@
 # Anurudran Chandrasekaram . Jarvis Consulting
 
-My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field.
+My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments usch as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline.
 
 ## Skills
 
-**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, RDBMS/SQL, Java, Linux/Bash, Git
 
-**Competent:** Java, Design Patterns, Javascript, Network Security, HTML/CSS
+**Competent:** Agile/Scrum, Design Patterns, Javascript, Network Security, HTML/CSS
 
-**Familiar:** C, Haskell, SVN, Dynamic Programming, Assembly language
+**Familiar:** C, Haskell, SVN, Waterfall, Assembly language
 
 ## Jarvis Projects
 
@@ -19,25 +19,15 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App (In Progress): Creating an app that is able to create, update and delete a tweet using the twitter API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app.
   - JDBC App: This app is a connection between Java and RDBMS. It uses the CRUD and DAO design patterns.
   - Grep App: Created an app that mimics the linux grep command. It takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression given.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/cloud_devops)]: Not Started
-
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**AirBnb Database**: Created an AirBnb Database using RDBMS by creating tables for a user to create an account as a host or renter and be able to host or rent a listing for certain days.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Matplotlib**: Worked on a Matplotlib issue by creating a feature that is able to toggle the visbility of sub plots on a graph through the legend handler. This project was worked with a group of 5 people using a waterfall project methodology. The tools used where gitbuh, python and pytest to test the feature.
 
 
 ## Professional Experiences
@@ -58,3 +48,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 ## Miscellaneous
 - Basketball and Ultimate Frisbee player
 - Competitive gaming
+- Working out
