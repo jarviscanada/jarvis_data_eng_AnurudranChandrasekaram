@@ -1,0 +1,32 @@
+[
+    {
+        "memid": "0",
+        "surname": "GUEST",
+        "firstname": "GUEST",
+        "address": "GUEST",
+        "zipcode": "0",
+        "telephone": "(000) 000-0000",
+        "recommendedby": "",
+        "joindate": "2012-07-01 00:00:00"
+    },
+    {
+        "memid": "1",
+        "surname": "Smith",
+        "firstname": "Darren",
+        "address": "8 Bloomsbury Close, Boston",
+        "zipcode": "4321",
+        "telephone": "555-555-5555",
+        "recommendedby": "",
+        "joindate": "2012-07-02 12:02:05"
+    },
+    {
+        "memid": "2",
+        "surname": "Smith",
+        "firstname": "Tracy",
+        "address": "8 Bloomsbury Close, New York",
+        "zipcode": "4321",
+        "telephone": "555-555-5555",
+        "recommendedby": "",
+        "joindate": "2012-07-02 12:08:23"
+    }
+]
