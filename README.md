@@ -1,6 +1,6 @@
 # Anurudran Chandrasekaram . Jarvis Consulting
 
-My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments usch as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline.
+My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments such as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline.
 
 ## Skills
 
@@ -32,7 +32,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2022-present)**: Learning various programming languages and tools to by completing various projects such as the Cluster Monitor project or Java grep. Working in a agile/scrum approach to complete those projects
+**Software Developer, Jarvis (2022-present)**: Learning various programming languages such as Python, SQL, and Java and tools such as GitHub and Notion by completing various projects such as the Cluster Monitor project or Java grep app. Also working in an agile/scrum environment to complete the tasks and projects efficently. 
 
 **Jr Software Engineer Co-op, Ontario Public Service (September 2020 - April 2021)**: Developed Test scripts using Java and Selenium to automate the webpages onto different web browsers to test the functionality of the website and used Git for deployment of our code. Researched and Developed a new way in doing load testing to ensure the websites can handle traffic overload and not crash.
 

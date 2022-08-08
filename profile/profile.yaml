@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments usch as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline.
+summary: My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments such as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -65,7 +65,7 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Learning various programming languages and tools to by completing various projects such as the Cluster Monitor project or Java grep. Working in a agile/scrum approach to complete those projects"
+    description: "Learning various programming languages such as Python, SQL, and Java and tools such as GitHub and Notion by completing various projects such as the Cluster Monitor project or Java grep app. Also working in an agile/scrum environment to complete the tasks and projects efficently. "
   - title: "Jr Software Engineer Co-op"
     company: "Ontario Public Service"
     duration: "September 2020 - April 2021"

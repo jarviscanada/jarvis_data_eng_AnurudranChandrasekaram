@@ -49,7 +49,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Learning various programming languages and tools to by completing various projects such as the Cluster Monitor project or Java grep. Working in a agile/scrum approach to complete those projects",
+      "description": "Learning various programming languages such as Python, SQL, and Java and tools such as GitHub and Notion by completing various projects such as the Cluster Monitor project or Java grep app. Also working in an agile/scrum environment to complete the tasks and projects efficently. ",
       "duration": "2022-present",
       "title": "Software Developer"
     },
@@ -95,5 +95,5 @@
       "Git"
     ]
   },
-  "summary": "My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments usch as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline."
+  "summary": "My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree is computer science specializing in the software engineering field. I have worked in many different team enivornments such as Waterfall or Agile through the Co-op placements I have done in the past. I enjoy problem solving and learned to work well under pressure based on working on projects that are time sensitive and needed to be finished by a final deadline."
 }
