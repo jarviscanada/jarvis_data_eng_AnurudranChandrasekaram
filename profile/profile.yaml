@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelors degree in computer science specializing in software engineering. Through out my undergrad and previous work terms I have gained a lot of programming skills such as Python, Java and SQL. I learned Waterfall and Agile/Scrum approach from working as a Web Developer at Public Sefvices and Procurement Canada. Currently I have a passion for data analysis and using that information to deliever business solutions.
+summary: My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelor's degree in computer science specializing in software engineering. Throughout my undergrad and previous work terms, I have learned a lot of programming skills and am proficient in Python, Java, and SQL. I gained Waterfall and Agile/Scrum approach experience working as a Web Developer at Public Services and Procurement Canada. Currently, I have a passion for data analysis and using that information to deliver business solutions.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -38,13 +38,13 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created a product that is able to get the host hardware information as well as all the host's usage information using bash scripts. Those scripts are run every minute using crontab. Used PostgreSQL as the RDBMS to store the host's harware and usage information so we can write SQL queries that can answer various buisness questions. This project was then dockerzied for easy deployment.
+    description: Created a product that can get the host hardware information as well as all the host's usage information using bash scripts. Those scripts run every minute using crontab. Used PostgreSQL as the RDBMS to store the host's hardware and usage information so we can write SQL queries that can answer various business questions. This project was then dockerized for easy deployment.
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App (In Progress): Creating an app that is able to create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app."
+      - "Twitter App (In Progress): Creating an app that can create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app."
       - "JDBC App: This app is a connection between Java and Postgres RDBMS. It uses the CRUD operations using the DAO design patterns."
-      - "Grep App: Created an app that mimics the linux grep command. It takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression given."
+      - "Grep App: Created an app that mimics the Linux grep command written in Java. It takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression given."
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -52,9 +52,9 @@ highlighted_projects:
     #project name
   - name: "AirBnb Database"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created an AirBnb Database using mySQL RDBMS. This application allows users to create an account as a host or renter and be able to host or rent a listing for certain days. 
+    description: Created an Airbnb Database using MySQL RDBMS and Java. This application allows users to create an account as a host or renter and be able to host or rent a listing for certain days. 
   - name: "Matplotlib FOSS feature"
-    description: Contributed on a Matplotlib issue by extending a feature that is able to toggle the visbility of sub plots on a graph through the legend handler. This project was worked with a group of 5 people using a Waterfall project methodology. The tools used where gitbuh, python and pytest to create and test the feature.
+    description: Contributed to a Matplotlib issue by extending a feature that can toggle the visibility of subplots on a graph through the legend handler. This project was worked with a group of 5 people using a Waterfall project methodology. The tools used were GitHub, python, and pytest to create and test the feature.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -65,11 +65,11 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Learning various programming languages such as Python, SQL, and Java and tools such as GitHub and Notion by completing various projects such as the Cluster Monitor project or Java Twitter app. Also working in an Agile/Scrum environment to complete the tasks and projects efficently."
+    description: "Learning various programming languages such as Python, SQL, and Java and tools such as GitHub and Notion by completing various projects such as the Cluster Monitor project or Java Twitter app. Also working in an Agile/Scrum environment to complete the tasks and projects efficiently."
   - title: "Jr Software Engineer Co-op"
     company: "Ontario Public Service"
     duration: "September 2020 - April 2021"
-    description: "Developed test scripts using Java and Selenium to automate the webpages onto different web browsers to test the functionality of the website and used Git for deployment of our code. Researched and developed a new ways in doing load testing to ensure the websites can handle traffic overload and not crash."
+    description: "Developed test scripts using Java and Selenium to automate the webpages onto different web browsers to test the functionality of the website and used Git for the deployment of our code. Researched and developed new ways in doing load testing to ensure the websites can handle traffic overload and not crash."
   - title: "Web Developer Co-op"
     company: "Public Services and Procurement Canada"
     duration: "September 2019 - December 2019"
@@ -77,7 +77,7 @@ professional_experience:
   - title: "Senior QA Specialist Co-op"
     company: "CIBC Digital"
     duration: "January 2019 - April 2019"
-    description: "Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website that are viewed by millions. Coordinated with team members through email and on Jira to efficiently and effectively test, send changes, publish to production and retest in production in a span of 1 hour. Effectively tested new pages and variety of change requests varying from 5-50 changes to reduce reopening issues on a daily basis"
+    description: "Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website that is viewed by millions. Coordinated with team members through email and on Jira to efficiently and effectively test, send changes, publish to production, and retest in production in 1 hour. Effectively tested new pages and variety of change requests varying from 5-50 changes to reduce reopening issues daily"
 
 
 #List of edcuation
