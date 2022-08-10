@@ -1,10 +1,10 @@
 # Anurudran Chandrasekaram . Jarvis Consulting
 
-My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelor's degree in computer science specializing in software engineering. Throughout my undergrad and previous work terms, I have learned a lot of programming skills and am proficient in Python, Java, and SQL. I gained Waterfall and Agile/Scrum approach experience working as a Web Developer at Public Services and Procurement Canada. Currently, I have a passion for data analysis and using that information to deliver business solutions.
+My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelor's degree in computer science specializing in software engineering and am currectly as a Data/Software Engineer at Jarvis. Throughout my undergrad I have learned a wide range of programming topics and languages. I was really interested in topics such as algorithm design techniques, relational data modelling, and network security. I enjoy programming in Python, Java and SQL by creating projects such as an Airbnb database or working on network security coding challenges. During my work terms in CIBC or at Ontario Public Services I have learned to work well in a fast paced environemnt and gained experience working in Waterfall and Agile projects. Throughout my undergrad and previous work terms, I have learned a lot of programming skills and am proficient in Python, Java, and SQL. Problem solving and creative thinking are some of the skills that I want to enhance in and through working on programming projects to create optimal solutions allows me to do that. Currently, I have a passion for data analysis and using that information to deliver business solutions.
 
 ## Skills
 
-**Proficient:** Python, RDBMS/SQL, Java, Linux/Bash, Git
+**Proficient:** Python, SQL(Postgres, MySQL), Java, Linux/Bash, Git
 
 **Competent:** Agile/Scrum, Docker, Javascript, Network Security, HTML/CSS
 
@@ -20,14 +20,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/core_java)]:
       
   - Twitter App (In Progress): Creating an app that can create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app.
-  - JDBC App: This app is a connection between Java and Postgres RDBMS. It uses the CRUD operations using the DAO design patterns.
-  - Grep App: Created an app that mimics the Linux grep command written in Java. It takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression given.
+  - JDBC App: Developped an application that uses the JDBC API that allows you to create a connection between Java code and PostgreSQL database. It uses the Create, Read, Update and Delete operations using the DAO design patterns.
+  - Grep App: Created an app that mimics the Linux grep command which takes a directory or file and traverses each file and each line in the file to find a pattern that matches the regex expression. This app was written using Java and Stream APIs for efficent processing of large files and improves code simplicity. This project used Maven to install dependencies and dockerized for easy deployment.
 
 
 ## Highlighted Projects
-**AirBnb Database**: Created an Airbnb Database using MySQL RDBMS and Java. This application allows users to create an account as a host or renter and be able to host or rent a listing for certain days.
+**AirBnb Database**: Created an Airbnb Database using MySQL and Java. This application allows users to create an account as a host or renter and be able to host or rent a listing for certain days. Used relational data model to create a database design that allows the tables to be Boyce-Codd normal form.
 
-**Matplotlib FOSS feature**: Contributed to a Matplotlib issue by extending a feature that can toggle the visibility of subplots on a graph through the legend handler. This project was worked with a group of 5 people using a Waterfall project methodology. The tools used were GitHub, python, and pytest to create and test the feature.
+**Matplotlib FOSS feature**: Contributed on a Matplotlib issue by extending a feature that can toggle the visibility of subplots on a graph through the legend handler. This project was worked with a group of 5 people using a Waterfall project methodology. The tools used were GitHub, python, and pytest to create and test the feature.
 
 
 ## Professional Experiences
