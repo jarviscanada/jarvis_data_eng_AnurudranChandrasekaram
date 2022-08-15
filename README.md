@@ -1,6 +1,6 @@
 # Anurudran Chandrasekaram . Jarvis Consulting
 
-My name is Anurudran Chandrasekaram and I am a University of Toronto Scarborough graduate. I completed my bachelor's degree in Computer Science specializing in Software Engineering and am currently a Data/Software Engineer at Jarvis. Throughout my undergrad, I have learned a wide range of programming topics and languages. I was interested in topics such as algorithm design techniques, relational data modeling, and network security. I enjoy programming in Python, Java, and SQL by creating projects such as an Airbnb database or working on network security coding challenges. During my work terms in CIBC or at Ontario Public Services I have learned to work well in a fast-paced environment and gained experience working in Waterfall and Agile projects. Problem-solving and creative thinking are some of the skills that I want to enhance in and by working on programming projects to create optimal solutions allows me to do that. Currently, I have a passion for data analysis and using that information to deliver business solutions.
+I am a recent University of Toronto Scarborough graduate that completed my bachelor's degree in Computer Science specializing in Software Engineering. Currently, I am a Data/Software Engineer at Jarvis. Throughout my undergrad, I have learned a wide range of programming topics and languages. I was interested in topics such as algorithm design techniques, relational data modeling, and network security. I enjoy programming in Python, Java, and SQL by creating projects such as an Airbnb database or working on network security coding challenges. During my work terms in CIBC or at Ontario Public Services I have learned to work well in a fast-paced environment and gained experience working in Waterfall and Agile projects. I always appreciate working on various programming projects because it allows me to use the problem-solving and creative thinking skills that I excel in.
 
 ## Skills
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_AnurudranC
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_AnurudranChandrasekaram/tree/master/core_java)]:
       
-  - Twitter App (In Progress): Creating an app that can create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app.
+  - Twitter App: Created an app that can create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app.
   - JDBC App: Developed an application that uses the JDBC API that allows you to create a connection between Java code and PostgreSQL database. It uses the Create, Read, Update and Delete operations using the DAO design patterns.
   - Grep App: Created an app that mimics the Linux grep command that takes a directory or file and traverses each file and line in each of those files to find a pattern that matches the regex expression. This app was written using Java and Stream APIs for efficient processing of large files and improving code simplicity. This project used Maven to install dependencies and dockerized for easy deployment.
 
