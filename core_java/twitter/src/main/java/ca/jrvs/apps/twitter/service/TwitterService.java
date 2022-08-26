@@ -61,52 +61,54 @@ public class TwitterService implements Service{
     }
 
     private void validateField(Tweet tweet, String[] fields) {
-        ArrayList<String> s = new ArrayList<String>();
-        s.add("created_at");
-        s.add("id");
-        s.add("id_str");
-        s.add("text");
-        s.add("entities");
-        s.add("coordinates");
-        s.add("retweet_count");
-        s.add("favorite_count");
-        s.add("favorited");
-        s.add("retweeted");
-        for (String field: fields) {
-            if (!s.contains(field)) {
-                switch (field) {
-                    case "created_at":
-                        tweet.setCreated_at(null);
-                        break;
-                    case "id":
-                        tweet.setId(null);
-                        break;
-                    case "id_str":
-                        tweet.setId_str(null);
-                        break;
-                    case "text":
-                        tweet.setText(null);
-                        break;
-                    case "entities":
-                        tweet.setEntities(null);
-                        break;
-                    case "coordinates":
-                        tweet.setCoordinates(null);
-                        break;
-                    case "retweet_count":
-                        tweet.setRetweet_count(null);
-                        break;
-                    case "favorite_count":
-                        tweet.setFavorite_count(null);
-                        break;
-                    case "favorited":
-                        tweet.setFavorited(null);
-                        break;
-                    case "retweeted":
-                        tweet.setRetweeted(null);
-                        break;
-                    default:
-                        throw new IllegalArgumentException("Invalid field");
+        if (fields != null) {
+            ArrayList<String> s = new ArrayList<String>();
+            s.add("created_at");
+            s.add("id");
+            s.add("id_str");
+            s.add("text");
+            s.add("entities");
+            s.add("coordinates");
+            s.add("retweet_count");
+            s.add("favorite_count");
+            s.add("favorited");
+            s.add("retweeted");
+            for (String field : fields) {
+                if (!s.contains(field)) {
+                    switch (field) {
+                        case "created_at":
+                            tweet.setCreated_at(null);
+                            break;
+                        case "id":
+                            tweet.setId(null);
+                            break;
+                        case "id_str":
+                            tweet.setId_str(null);
+                            break;
+                        case "text":
+                            tweet.setText(null);
+                            break;
+                        case "entities":
+                            tweet.setEntities(null);
+                            break;
+                        case "coordinates":
+                            tweet.setCoordinates(null);
+                            break;
+                        case "retweet_count":
+                            tweet.setRetweet_count(null);
+                            break;
+                        case "favorite_count":
+                            tweet.setFavorite_count(null);
+                            break;
+                        case "favorited":
+                            tweet.setFavorited(null);
+                            break;
+                        case "retweeted":
+                            tweet.setRetweeted(null);
+                            break;
+                        default:
+                            throw new IllegalArgumentException("Invalid field");
+                    }
                 }
             }
         }

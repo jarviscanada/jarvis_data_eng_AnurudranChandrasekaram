@@ -86,7 +86,7 @@ public class TwitterDao implements CrdDao<Tweet, String> {
     public Tweet deleteById(String s) throws OAuthMessageSignerException, OAuthExpectationFailedException, IOException, OAuthCommunicationException {
         // Create a uri request
         PercentEscaper percentEscaper = new PercentEscaper("", false);
-        URI uri = URI.create(API_BASE_URI + DELETE_PATH + percentEscaper.escape(s) + ".json");
+        URI uri = URI.create(API_BASE_URI + DELETE_PATH + "/" + percentEscaper.escape(s) + ".json");
         HttpResponse httpResponse = httpHelper.httpPost(uri);
         return parseResponse(httpResponse, HTTP_OK);
     }
