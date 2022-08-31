@@ -35,6 +35,18 @@ public class TwitterHttpHelper implements HttpHelper{
         httpClient = new DefaultHttpClient();
     }
 
+    public TwitterHttpHelper() {
+        String consumerKey = System.getenv("consumerKey");
+        String consumerSecret = System.getenv("consumerSecret");
+        String accessToken = System.getenv("accessToken");
+        String tokenSecret = System.getenv("tokenSecret");
+        consumer = new CommonsHttpOAuthConsumer(consumerKey, consumerSecret);
+        consumer.setTokenWithSecret(accessToken, tokenSecret);
+        /**
+         * Default = single connection. Discuss source code if time permit
+         */
+        httpClient = new DefaultHttpClient();
+    }
     @Override
     public HttpResponse httpPost(URI uri) throws OAuthMessageSignerException, OAuthExpectationFailedException, OAuthCommunicationException, IOException {
         HttpPost request = new HttpPost(uri);

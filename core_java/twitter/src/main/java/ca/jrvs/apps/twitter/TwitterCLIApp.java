@@ -34,15 +34,15 @@ public class TwitterCLIApp {
         String tokenSecret = System.getenv("tokenSecret");
 
         HttpHelper httpHelper = new TwitterHttpHelper(consumerKey, consumerSecret, accessToken, tokenSecret);
-        TwitterDao dao = new TwitterDao(httpHelper);
-        TwitterService service = new TwitterService(dao);
-        TwitterController controller = new TwitterController(service);
+        CrdDao dao = new TwitterDao(httpHelper);
+        Service service = new TwitterService(dao);
+        Controller controller = new TwitterController(service);
         TwitterCLIApp app = new TwitterCLIApp(controller);
         
         app.run(args);
     }
 
-    private void run(String[] args) throws OAuthMessageSignerException, OAuthExpectationFailedException, IOException, OAuthCommunicationException {
+    public void run(String[] args) throws OAuthMessageSignerException, OAuthExpectationFailedException, IOException, OAuthCommunicationException {
         if (args.length == 0) {
             throw new IllegalArgumentException("USAGE: TwitterCLIApp post|show|delete [options]");
         }
