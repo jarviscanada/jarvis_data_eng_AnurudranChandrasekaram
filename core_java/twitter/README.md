@@ -1,5 +1,4 @@
 # Introduction
-(50-100 words)
 Created an app that can create, update and delete a tweet using the Twitter REST API. This app follows the DAO design pattern and uses Mockito and JUnit to create test cases for testing the app. App uses Maven to install all the dependencies needed to run the application. It is then dockerized for easy deployment.
 
 # Quick Start
